@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f7f7f9;
+  width: 375px;
+}
+
+#dell {
+  gap: 3px;
+  justify-content: column;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+#dell div {
+  width: 18px;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  background-color: #6070ff;
+}
+
+.connect p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #7f8cff;
+  line-height: 24px;
+}
+
+.connect #button-connect {
+  margin-bottom: 8px;
+  color: #6070ff;
+  width: auto;
+}
+
+.menu-containers {
+  width: 300px;
+  height: 1px;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  font-size: 30px;
+  font-style: normal;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.test {
+  background-image: url("Images/background.png");
+  width: 360px;
+  height: 718px;
+  top: 104px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 114px 24px;
+  gap: 12px;
+}
+
+.Add_file {
+  color: #172b4d;
+  font-style: bold;
+  font-family: normal;
+  font-size: 40px;
+  line-height: 50px;
+  width: 250px;
+  height: 150px;
+  padding-top: 40px;
+}
+
+.headline .add_second_file {
+  color: #344563;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 146px;
+  width: 320px;
+  padding-top: 1px;
+}
+
+.headline .connect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 125px;
+  height: 30px;
+  color: #7f8cff;
+}
+
+.headline .Media-links {
+  width: 170.17px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 0;
+}
